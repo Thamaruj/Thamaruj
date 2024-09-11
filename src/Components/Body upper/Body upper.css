@@ -1,0 +1,9 @@
+
+.PetCollageContainer{
+    background-color: rgba(217,217,217,255);
+}
+
+.PetCollage{
+    animation: bloom 0.8s ease-out forwards; /* Apply blooming animation */
+    width: 100%;
+}
