@@ -1,0 +1,167 @@
+
+
+.heading-container{
+    font-size: large;
+    width: 100%;
+    padding-top: 8%;
+    height: 8em;
+    background: linear-gradient(to bottom, rgb(184, 215, 228),rgb(160, 209, 221));
+    display: inline-block;
+    justify-content: center;
+}
+
+.heading, .heading-description{
+    text-align: center; 
+}
+
+.heading{
+    font-size:3em;
+    padding-bottom: 1%;
+
+}
+
+.heading-description{
+    font-size: 1.2em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.donate-volunteer-box-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160, 209, 221);
+    height: 27em;
+    column-gap: 5% ;
+    padding-top: 3em;
+
+}
+
+.donate-box,.volunteer-box{
+
+    height: 60%;
+    width: 25%;
+    background-color: rgb(92, 146, 153);
+    border-radius: 1em;
+    text-align: center;
+    padding: 15px; /* Optional: Add padding to give some internal spacing */
+    line-height: 1.5em;
+    transition: 0.5s;
+}
+
+.voulnteer-box-heading,.donate-box-heading{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(4, 36, 70);
+    padding-bottom: 8%;
+    
+}
+
+.donate-box-description,.volunteer-box-description{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.donate-volunteer-box-container button{
+    background-color: rgb(14, 96, 173);
+    border: none;
+    height: 2.5em;
+    width: 35%;
+    border-radius: 0.5em;
+    color: rgb(255, 255, 255);
+    margin-top: 22%;
+    font-size: 1em;
+    transition: 0.8s;
+}
+
+
+
+
+
+/**************/
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    
+}
+
+.modal input, 
+.modal label {
+    display: inline-block;
+}
+
+.click-button{
+    display: inline-block;
+    width: 60%;
+    margin: 5px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.8s;
+    background-color: rgb(5, 147, 236);
+    color: white;
+    font-size: 15px;
+
+}
+
+
+.modal {
+    background-color: rgb(184, 226, 232);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.modal h2 {
+    margin-bottom: 20px;
+}
+
+.modal input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.link-to-signup{
+    margin-top: 20px;
+    transition: 0.4s;
+}
+/**********************************HOVER EFFECTS***************************************/
+
+.donate-volunteer-box-container button:hover{
+    cursor: pointer;
+    color: rgb(14,96,173);
+    background-color: white;
+}
+
+.donate-box:hover,
+.volunteer-box:hover{
+    transform: scale(1.02);
+}
+
+.link-to-signup:hover{
+    cursor: pointer;
+    color: #5596ac;
+}
+
+.click-button:hover{
+    background-color: white;
+    color:  rgb(5, 147, 236);
+    cursor: pointer;
+}
