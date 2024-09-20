@@ -78,7 +78,7 @@ const VolunteerandDonate = () =>{
                             <input type="text" placeholder="Second Name" required />
 
                             <label>Permanent Address</label>
-                            <input type="text" placeholder="Permanents Address" required />
+                            <input type="text" placeholder="Permanent Address" required />
 
                             <label>Email Address </label>
                             <input type="text" placeholder="Email Address" required />
@@ -93,7 +93,7 @@ const VolunteerandDonate = () =>{
                             <input type="password" placeholder="Confirm Password" onChange={(e) => {setConfirmPassword(e.target.value); setHasTypedConfirmPassword(true);}} required />
 
                             {hasTypedConfirmPassword && confirmPassword && (password !== confirmPassword) && (
-                                <p style={{ color: 'red' }}>Passwords do not match!</p>
+                                <p style={{ color: 'red', fontSize: '14px' }}>Passwords do not match!</p>
                             )}
 
                             <button className="click-button" type="submit">Signup</button>
