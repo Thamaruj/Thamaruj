@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     opacity: 1;
-    z-index: 7;
+    z-index: 100;
     height: 67px;
     position: relative;
     width: 100%;
@@ -60,20 +60,28 @@
   
 }
 
-.navBar button:hover{
+.buttonNavigator:hover{
     color: rgb(9, 40, 59);
 
 }
 
-.navBar button{
-    font-family:"Roboto", sans-serif;
+
+
+.buttonNavigator {
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
-    background-color:rgb(8, 75, 103);
-    color:  #b7dfeb;
+    background: none;
+    color: white;
     border: none;
     cursor: pointer;
     font-size: 15px;
-    background: none;
-    color: white;
+    list-style: none; /* Remove bullet points if any */
+  }
 
-}
+.buttonNavigator a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the color from .buttonNavigator */
+}  
+  
+
+
