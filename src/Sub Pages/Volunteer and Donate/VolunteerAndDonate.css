@@ -5,7 +5,7 @@
     width: 100%;
     padding-top: 8%;
     height: 8em;
-    background: linear-gradient(to bottom, rgb(184, 215, 228),rgb(160, 209, 221));
+    background:linear-gradient(to right, #012334, #1d5f74, #073c57);
     display: inline-block;
     justify-content: center;
 }
@@ -15,8 +15,11 @@
 }
 
 .heading{
-    font-size:3em;
+    font-size:3.5em;
     padding-bottom: 1%;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+
 
 }
 
@@ -24,12 +27,13 @@
     font-size: 1.2em;
     width: 50%;
     margin-left: 25%;
+    color: rgb(207, 225, 225);
 }
 
 .donate-volunteer-box-container{
     display: flex;
     justify-content: center;
-    background-color: rgb(160, 209, 221);
+    background:linear-gradient(to right, #012334, #1d5f74, #073c57);
     height: 27em;
     column-gap: 5% ;
     padding-top: 3em;
@@ -40,7 +44,7 @@
 
     height: 60%;
     width: 25%;
-    background-color: rgb(92, 146, 153);
+    background-color: rgb(126, 167, 172);
     border-radius: 1em;
     text-align: center;
     padding: 15px; /* Optional: Add padding to give some internal spacing */
@@ -51,7 +55,7 @@
 .voulnteer-box-heading,.donate-box-heading{
     font-size: 2em;
     font-weight: bold;
-    color: rgb(4, 36, 70);
+    color: rgb(45, 76, 85);
     padding-bottom: 8%;
     
 }
@@ -85,7 +89,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background: rgba(0, 0, 0, 0.5); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +118,7 @@
 
 
 .modal {
-    background-color: rgb(184, 226, 232);
+    background:linear-gradient(to right, rgb(60, 176, 194), #457891,#145f85);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -157,7 +161,7 @@
 
 .link-to-signup:hover{
     cursor: pointer;
-    color: #5596ac;
+    color: #ffffff;
 }
 
 .click-button:hover{

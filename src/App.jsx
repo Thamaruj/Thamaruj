@@ -6,6 +6,7 @@ import BodyUpper from "./Components/Body upper/Body upper";
 import BodyMiddle from "./Components/Body middle/Body middle";
 import AboutUs from "../src/Sub Pages/About Us/AboutUs";
 import VolunteerandDonate from "./Sub Pages/Volunteer and Donate/VolunteerAndDonate";
+import SuccessStories from "./Sub Pages/Success Stories/Success stories";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/VolunteerAndDonate" element={<VolunteerandDonate />} />
+        <Route path="/SuccessStories" element={<SuccessStories/>} />
       </Routes>
     </Router>
   );

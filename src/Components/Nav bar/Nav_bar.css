@@ -13,7 +13,7 @@
     position: relative;
     width: 100%;
     margin-top: 0%;
-    background: linear-gradient(to right, rgb(58, 122, 149), #76b3c7,rgb(58, 122, 149));
+    background:linear-gradient(to right, #012334, #1d5f74, #073c57);
     background-blend-mode: screen;
     position: fixed;
     margin-top: 0;
