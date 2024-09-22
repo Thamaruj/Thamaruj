@@ -7,6 +7,7 @@ import BodyMiddle from "./Components/Body middle/Body middle";
 import AboutUs from "../src/Sub Pages/About Us/AboutUs";
 import VolunteerandDonate from "./Sub Pages/Volunteer and Donate/VolunteerAndDonate";
 import SuccessStories from "./Sub Pages/Success Stories/Success stories";
+import PetShop from "./Sub Pages/Pet Shop/Pet Shop";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/VolunteerAndDonate" element={<VolunteerandDonate />} />
         <Route path="/SuccessStories" element={<SuccessStories/>} />
+        <Route path="/PetShop" element={<PetShop/>}/>
       </Routes>
     </Router>
   );

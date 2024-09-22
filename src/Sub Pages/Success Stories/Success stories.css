@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     height: 93.9%;
-    background: rgba(0, 0, 0, 0.4); /* Semi-transparent black background */
+    background: rgba(0, 0, 0, 0.05); /* Semi-transparent black background */
     z-index: 1; 
 }
 
@@ -34,7 +34,7 @@
 
 .Success-story-pet-container{
     height: 100%;
-    background:linear-gradient(to right, #012334, #1d5f74, #073c57);
+    background:linear-gradient(to right, #378db9, #cdeffa, #4aacde);
     display: flex; 
     flex-wrap: wrap;
     justify-content: center; /* Center the boxes horizontally */
@@ -54,7 +54,7 @@
 .background-box-for-Success-story-pet-container {
     position: relative; /* Required for the overlay to be positioned correctly */
     padding: 4%;
-    background:linear-gradient(to right, #012334, #1d5f74, rgba(39,101,122,255)) ;
+    background:linear-gradient(to right, #378db9, #cdeffa, #4aacde) ;
     margin: 0;
 }
 
@@ -150,4 +150,5 @@
 .hear-more-button:hover{
     background-color: aliceblue;
     color: rgb(8, 162, 239);
+    cursor: pointer;
 }

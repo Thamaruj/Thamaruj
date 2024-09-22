@@ -14,7 +14,7 @@ const Navbar = () => {
             <ul>
                 <li className="buttonNavigator">Home</li>  {/* Link for Home */}                
                 <li className="buttonNavigator"><Link to="/">Adoption</Link></li>
-                <li className="buttonNavigator">Pet Shop</li>
+                <li className="buttonNavigator"><Link to="/PetShop">Pet Shop</Link></li>
                 <li className="buttonNavigator"><Link to="/SuccessStories">Success Stories</Link> </li>
                 <li className="buttonNavigator"><Link to="/VolunteerAndDonate">Volunteer and Donations</Link></li>
                 <li className="buttonNavigator"><Link to="/about">About Us</Link></li> {/* Link for About Us */}

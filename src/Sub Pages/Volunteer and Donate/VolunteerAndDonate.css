@@ -5,7 +5,7 @@
     width: 100%;
     padding-top: 8%;
     height: 8em;
-    background:linear-gradient(to right, #012334, #1d5f74, #073c57);
+    background:linear-gradient(to right, #378db9, #cdeffa, #4aacde);
     display: inline-block;
     justify-content: center;
 }
@@ -17,7 +17,7 @@
 .heading{
     font-size:3.5em;
     padding-bottom: 1%;
-    color: rgb(255, 255, 255);
+    color: rgb(22, 62, 107);
     font-weight: 400;
 
 
@@ -27,13 +27,13 @@
     font-size: 1.2em;
     width: 50%;
     margin-left: 25%;
-    color: rgb(207, 225, 225);
+    color: rgb(18, 57, 89);
 }
 
 .donate-volunteer-box-container{
     display: flex;
     justify-content: center;
-    background:linear-gradient(to right, #012334, #1d5f74, #073c57);
+    background:linear-gradient(to right, #378db9, #cdeffa, #4aacde);
     height: 27em;
     column-gap: 5% ;
     padding-top: 3em;
@@ -44,13 +44,14 @@
 
     height: 60%;
     width: 25%;
-    background-color: rgb(126, 167, 172);
+    background:linear-gradient(to right,#66bbe5,#cdeffa,#62a9cd);
     border-radius: 1em;
     text-align: center;
     padding: 15px; /* Optional: Add padding to give some internal spacing */
     line-height: 1.5em;
     transition: 0.5s;
 }
+
 
 .voulnteer-box-heading,.donate-box-heading{
     font-size: 2em;

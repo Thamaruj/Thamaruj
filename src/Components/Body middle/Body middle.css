@@ -1,5 +1,5 @@
 .phrase{
-    background: linear-gradient(to bottom,rgba(217,217,217,255),#ffffff);
+    background: linear-gradient(to bottom,rgba(217,217,217,255),#378db9);
     height: 200px;
     padding-bottom: 50px;
     min-width: 1000px;
@@ -23,7 +23,7 @@
     padding-top: 100px;
 
 
-    background: linear-gradient(to right, #b6ac53, #8faa60, #ba8c21); 
+    background: linear-gradient(to right, #68cdd6, #72eef0, #4cbbd3); 
     background-clip: text; /* Clip the background to the text */
     color: transparent; /* Make the text itself transparent */
     
@@ -31,16 +31,13 @@
 
 
 .PetDetailsContainer{
-    margin-top: 2%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    background-color: rgba(222, 222, 215, 0.855);
+    background:linear-gradient(to right, #378db9, #6db3cb, #378db9);
     padding-top: 50px;
-    border-radius: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 .PetBox{
@@ -48,7 +45,7 @@
     height: 350px;
     width: 30%;
     margin: 1%;
-    background-color: #dad6d3;
+    background-color: #77d4f0;
     justify-content: center;
     text-align: center;
     vertical-align: middle;
