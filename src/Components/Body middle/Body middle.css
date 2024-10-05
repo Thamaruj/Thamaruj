@@ -23,7 +23,7 @@
     padding-top: 100px;
 
 
-    background: linear-gradient(to right, #68cdd6, #72eef0, #4cbbd3); 
+    background: linear-gradient(to right, #486266, #3a5454, #185462); 
     background-clip: text; /* Clip the background to the text */
     color: transparent; /* Make the text itself transparent */
     
@@ -45,7 +45,7 @@
     height: 350px;
     width: 30%;
     margin: 1%;
-    background-color: #77d4f0;
+    background:linear-gradient(to right, #5abff1, #4698b4, #46b2e8);
     justify-content: center;
     text-align: center;
     vertical-align: middle;

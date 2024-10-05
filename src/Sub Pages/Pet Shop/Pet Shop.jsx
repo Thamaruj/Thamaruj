@@ -30,13 +30,15 @@ const PetShop = () => {
         setCartItems(cartItems.filter(item => item.id !== productId));
     };
 
+    const totalItemsInCart = cartItems.reduce((total, item) => total + item.quantity, 0);
+
     const totalPrice = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 
     return (
         <div className="shop-container">
             <div className="cart-icon-container">
                 <img className="cart-icon" src={cartIcon} onClick={() => setCartOpen(!cartOpen)} />
-                <div className="cart-count">{cartItems.length}</div>
+                <div className="cart-count">{totalItemsInCart}</div>
                 
             </div>
 
@@ -50,7 +52,7 @@ const PetShop = () => {
                         <img className="product-image" src={product.image} alt={product.name} />
                         <div className="product-info">
                             <div className="product-name">{product.name}</div>
-                            <div className="product-price">Rs {product.price}</div>
+                            <div className="product-price">Rs. {product.price}</div>
                         </div>
                         <button className="add-to-cart" onClick={() => addToCart(product)}>Add to Cart</button>
                     </div>
@@ -77,7 +79,7 @@ const PetShop = () => {
                     </div>
                     <div className="cart-actions">
                         <button className="checkout">Checkout</button>
-                        <button className="cancel" onClick={() => setCartOpen(false)}>Cancel</button>
+                        <button className="cancel" onClick={() => setCartOpen(false)}>Close</button>
                     </div>
                 </div>
             )}

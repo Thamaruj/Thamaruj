@@ -8,6 +8,7 @@ import AboutUs from "../src/Sub Pages/About Us/AboutUs";
 import VolunteerandDonate from "./Sub Pages/Volunteer and Donate/VolunteerAndDonate";
 import SuccessStories from "./Sub Pages/Success Stories/Success stories";
 import PetShop from "./Sub Pages/Pet Shop/Pet Shop";
+import HomePage from "./Homepge/Homepge";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/VolunteerAndDonate" element={<VolunteerandDonate />} />
         <Route path="/SuccessStories" element={<SuccessStories/>} />
         <Route path="/PetShop" element={<PetShop/>}/>
+        <Route path="/HomePage" element={<HomePage/>}/>
       </Routes>
     </Router>
   );
