@@ -28,9 +28,7 @@ const HomePage = () => {
                                     </h3>
                                 </div>
                                 <p className="text-gray">
-                                    At Paw Island, we are dedicated to providing compassionate core and
-                                    comprehensive services for pets. From grooming to boarding, we
-                                    ensure that gour furrg friends are hoppg and well token core of.
+                                At Paw Island, we are committed to offering compassionate care and comprehensive services for pets. From grooming to boarding, we ensure your furry friends are happy and well taken care of.
                                 </p>
                                 <div className="d-flex flex-row gap-3 mt-3">
                                     <a href="#" className="btn btn-accent px-5 py-3 fw-semibold">Learn More</a>
@@ -144,7 +142,7 @@ const HomePage = () => {
                                 <li><img src={strrr} height="25px"/></li>
                             </ul>
                             <p className="text-gray fst-italic">
-                            The staff here is amazing! They treated my dog, Bella, like family. I never have to worry when I leave her in their care because I know she’s being pampered and well-looked after.
+                            "The staff here is amazing! They treated my dog, Bella, like family. I never have to worry when I leave her in their care because I know she’s being pampered and well-looked after"
                             </p>
                             <div className="d-flex flex-row align-items-center gap-3">
                                 <div>
@@ -168,7 +166,7 @@ const HomePage = () => {
                                 <li><img src={strrr} height="25px"/></li>
                             </ul>
                             <p className="text-gray fst-italic">
-                            I've tried many pet care services, but this is the best! My cat, Luna, always comes back happy and relaxed. I'm so grateful for their love and attention.
+                            "I've tried many pet care services, but this is the best! My cat, Luna, always comes back happy and relaxed. I'm so grateful for their love and attention"
                             </p>
                             <div className="d-flex flex-row align-items-center gap-3">
                                 <div>
@@ -192,7 +190,7 @@ const HomePage = () => {
                                 <li><img src={strrr} height="25px"/></li>
                             </ul>
                             <p className="text-gray fst-italic">
-                            "I'm impressed by the care and professionalism. When my dog, Max, had a medical issue, they responded quickly and provided excellent support
+                            "I'm impressed by the care and professionalism. When my dog, Max, had a medical issue, they responded quickly and provided excellent support"
                             </p>
                             <div className="d-flex flex-row align-items-center gap-3">
                                 <div>
