@@ -64,7 +64,7 @@ const SuccessStories = () =>{
 
             <div className="head-image-container">
                 <img className="head-image" src={successStoriesHeaderImage} alt="" />
-                <div class="overlay"></div>
+                <div class="overlay-var1"></div>
                 <div className="success-story-heading">OUR SUCCESS STORIES!</div>
             </div>
 

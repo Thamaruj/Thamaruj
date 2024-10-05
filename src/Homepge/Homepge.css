@@ -3,6 +3,13 @@
 @import url('CssComp/bootstrap-grid.rtl.css');
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@300..700&display=swap');
 
+
+.home-page-container{
+    background: linear-gradient(135deg, rgb(146, 195, 236), rgb(231, 234, 236))
+}
+
+
+
 :root {
     --light-color: #fbfbfb;
     --secondary-color: #21282b;
