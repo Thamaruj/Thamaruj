@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **Thamaruj/Thamaruj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +12,17 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+# Hi, I'm Thamaru Jalthotage!
+
+## 💻 Skills
+- Java, JavaScript, Python  
+- React, Vite, Bootstrap  
+- MySQL, AWS basics
+
+## 📂 Featured Projects
+- [CWB Solutions Website](https://new.cwbsolutions.net/) – A sleek company website built with React Vite, CSS and JavaScript
+
+## 📫 Contact Me
+- Email: thamarujalthotage1@gmail.com
+- LinkedIn: [Thamaru Jalthotage](www.linkedin.com/in/thamaru-jalthotage-a78145245)
