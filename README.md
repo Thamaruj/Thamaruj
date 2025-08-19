@@ -40,9 +40,15 @@ I am a student from the Sabaragamuwa University of Sri Lanka, currently pursuing
 
 
 
-
 ## 📂 Featured Projects
 - [CWB Solutions Website](https://new.cwbsolutions.net/) – A sleek company website built with React Vite, CSS and JavaScript
+  
+
+## 🌌 Stats
+![Thamaru's GitHub stats](https://github-readme-stats.vercel.app/api?username=Thamaruj&show_icons=true&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com/?user=Thamaruj&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Thamaruj&layout=compact&theme=tokyonight)
+
 
 ## 📫 Contact Me
 - Email: thamarujalthotage1@gmail.com
